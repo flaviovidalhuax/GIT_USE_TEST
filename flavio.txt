@@ -1,0 +1,9 @@
+Flavio hernandez vidal
+
+
+git remote add origin https://github.com/flaviovidalhuax/GIT_USE_TEST.git
+git branch -M main
+git push -u origin main
+
+junam
+
