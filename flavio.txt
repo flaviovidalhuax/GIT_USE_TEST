@@ -7,3 +7,7 @@ git push -u origin main
 
 junam
 
+
+git branch : dice las ramas creadas hasta ahora
+git branch dev;  crea la lama dev
+
