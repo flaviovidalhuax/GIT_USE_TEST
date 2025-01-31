@@ -18,6 +18,7 @@ git branch
 
 
 
-  git checkout . 
+git checkout . 
   todos los cambios que tienen antes de un commit se borran dejandlo sin cambios
-  
+git pull origin main : actualiza los cambios directamente a la rama main
+directamente a local 
