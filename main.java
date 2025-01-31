@@ -8,3 +8,8 @@ Boolean num_6=true;
 if(num_6){
     System.out.println("flavio hernandez vidal");
 }
+
+var name="Flavio hernandez jr ";
+if(name.containe('f)){
+    System.out.println("yes")
+}
