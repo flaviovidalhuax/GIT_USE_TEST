@@ -1,13 +1,28 @@
-Flavio hernandez vidal
+estoy en la rama dev
+FLavio hernanadez tengo que aprender mas rapido.
+
+prueba de merge usando git.
+
+git deff rama1 rama2
+git remote
+
+git branch
+ git checkout master
+ git fetch upstream
+  git remote add upstream [HTTPS]
+  git merge upstream/master
+  git push origin master
+  git remote rm [Remote Name]
+  git branch -d [Branch Name]
+  git push origin --delete [Branch Name]
 
 
-git remote add origin https://github.com/flaviovidalhuax/GIT_USE_TEST.git
-git branch -M main
-git push -u origin main
-
-junam
 
 
 git branch : dice las ramas creadas hasta ahora
 git branch dev;  crea la lama dev
 
+git checkout . 
+  todos los cambios que tienen antes de un commit se borran dejandlo sin cambios
+git pull origin main : actualiza los cambios directamente a la rama main
+directamente a local 
