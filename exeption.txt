@@ -1,0 +1,14 @@
+en java hay dos tipos de errorres: EXEPTION y ERROR
+
+padre: THROWABLE
+
+EXEPTION: son los errores en tiempo de ejecucion.
+ERROR: son errores en la maquina.
+
+EXEPTION:
+1.- runtimeExeption 
+        -AritmeticExeption              errores matematicos
+        -nullPionterExeption            errores de vacio como array nullos 
+2.- IOexeption                          errores de datos como archivos de entrada y salida exel, pdf, imagen
+3.-SQLexeption                          errores de base de datos
+4.-BroukenBarierExeption
