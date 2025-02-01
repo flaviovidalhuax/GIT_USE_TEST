@@ -15,7 +15,9 @@ git branch
   git remote rm [Remote Name]
   git branch -d [Branch Name]
   git push origin --delete [Branch Name]
+  git log grahp   
 
+me hace falta descipcion de como eliminar una rama o restaurarla a cierto punto.∫
 
 
 
