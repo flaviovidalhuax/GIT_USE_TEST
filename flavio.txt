@@ -30,3 +30,5 @@ git pull origin main : actualiza los cambios directamente a la rama main
 directamente a local 
 
 git merge origin/main: actualiza los cambio de main pero estamos en main, es decir solose actuliza y junta los conflictos∫
+
+git log --all --decorate --oneline --graph : puedes ver las ramas y como se han echo commit de manera grafica.
