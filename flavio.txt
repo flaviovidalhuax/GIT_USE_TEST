@@ -25,10 +25,14 @@ git branch : dice las ramas creadas hasta ahora
 git branch dev;  crea la lama dev
 
 git checkout . 
+git reset --hard
   todos los cambios que tienen antes de un commit se borran dejandlo sin cambios
-git pull origin main : actualiza los cambios directamente a la rama main
-directamente a local 
+git pull origin main : actualiza los cambios directamente a la rama main directamente a local.
+cuando la rama local tiene cambios y estan desfasadas te obliga hacer un merge de manera automatica.
+si hacemos un git checkout . borra todos los cambios hasta el ultimo commit y hacer un git pull solo descarga los cambios.
 
 git merge origin/main: actualiza los cambio de main pero estamos en main, es decir solose actuliza y junta los conflictos∫
 
 git log --all --decorate --oneline --graph : puedes ver las ramas y como se han echo commit de manera grafica.
+git status:
+  verivica el estado si hay cambios o si no se ha subido a repositorio
