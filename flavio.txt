@@ -36,3 +36,15 @@ git merge origin/main: actualiza los cambio de main pero estamos en main, es dec
 git log --all --decorate --oneline --graph : puedes ver las ramas y como se han echo commit de manera grafica.
 git status:
   verivica el estado si hay cambios o si no se ha subido a repositorio
+
+ADD FILE
+  git add .
+  git add --all
+  git add <file_name>
+DROP FILE
+git restored --staged <file_name>
+
+GIT RESTORED LAST push
+  git revert HEAD 
+Quitar el del log el bad commit definitivamente
+  git reset --hard HEAD
