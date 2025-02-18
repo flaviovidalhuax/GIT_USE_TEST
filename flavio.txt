@@ -48,3 +48,17 @@ GIT RESTORED LAST push
   git revert HEAD 
 Quitar el del log el bad commit definitivamente
   git reset --hard HEAD
+GIT LOG 
+git log --online          //Solo en una linea
+git log --graph --online  //grafico de ramas
+git log -3                //last 3 commits
+git log --author="Juan Perez"
+git log --grep="login"    //pañabra clave
+git log -- path/to/file.py  //solo un archivo
+git log --since="2023-10-01" --until="2023-10-31" //rango de fechas
+git log --pretty=format:"%h - %s"
+    %h: Hash abreviado del commit.
+    %s: Mensaje del commit.
+    %an: Nombre del autor.
+    %ad: Fecha del commit.
+    %cn: Nombre del committer.
